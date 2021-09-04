@@ -5,6 +5,8 @@ This is a repository to store my algorithms solutions to
 
 # Directories
 
+| Dir or File | Description |
+| :--- | :--- |
 | Accepted | solutions accepted to URI      |
 | Trying   | solutions still in development |
 | Theory   | like a utils dir               |
