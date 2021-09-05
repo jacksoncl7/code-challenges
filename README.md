@@ -1,6 +1,6 @@
 # URI Solutions
 
-This is a repository to store my algorithms solutions to
+this repository store my algorithm solutions to
 [uri](https://www.urionlinejudge.com.br) (online judge) problems
 
 # Directories
@@ -9,4 +9,4 @@ This is a repository to store my algorithms solutions to
 | :--- | :--- |
 | Accepted | solutions accepted to URI      |
 | Trying   | solutions still in development |
-| Theory   | like a utils dir               |
+| Utils | theory and generic algorithms |
