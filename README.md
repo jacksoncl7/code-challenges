@@ -9,4 +9,4 @@ this repository store my algorithm solutions to
 | :--- | :--- |
 | Accepted | solutions accepted to URI      |
 | Trying   | solutions still in development |
-| Utils | theory and generic algorithms |
+| Utils | generic solutions |
