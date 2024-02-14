@@ -1,12 +1,3 @@
 # URI Solutions
 
-this repository store my algorithm solutions to
-[uri](https://www.urionlinejudge.com.br) (online judge) problems
-
-# Directories
-
-| Dir or File | Description |
-| :--- | :--- |
-| Accepted | solutions accepted to URI      |
-| Trying   | solutions still in development |
-| Utils | generic solutions |
+This repository stores my solutions for some famous online judges.
