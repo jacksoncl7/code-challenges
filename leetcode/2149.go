@@ -2,13 +2,11 @@
 
 package main
 
-import "fmt"
-
-func main() {
-	nums := []int{3, 1, -2, -5, 2, -4}
-	solution := rearrangeArray(nums)
-	fmt.Println(solution)
-}
+// func main() {
+// 	nums := []int{3, 1, -2, -5, 2, -4}
+// 	solution := rearrangeArray(nums)
+// 	fmt.Println(solution)
+// }
 
 func rearrangeArray(nums []int) []int {
 	var pos []int

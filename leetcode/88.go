@@ -3,18 +3,16 @@
 // challenge O(n+m) =)
 package main
 
-import "fmt"
+// func main() {
+// 	// nums1 := []int{-1, 0, 0, 3, 3, 3, 0, 0, 0}
+// 	// nums2 := []int{1, 2, 2}
 
-func main() {
-	// nums1 := []int{-1, 0, 0, 3, 3, 3, 0, 0, 0}
-	// nums2 := []int{1, 2, 2}
+// 	nums1 := []int{1, 2, 3, 0}
+// 	nums2 := []int{1}
 
-	nums1 := []int{1, 2, 3, 0}
-	nums2 := []int{1}
-
-	result := merge(nums1, 3, nums2, 1)
-	fmt.Println("RESULT => ", result)
-}
+// 	result := merge(nums1, 3, nums2, 1)
+// 	fmt.Println("RESULT => ", result)
+// }
 
 func merge(nums1 []int, m int, nums2 []int, n int) []int {
 	var index1, index2 int
