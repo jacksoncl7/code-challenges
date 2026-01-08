@@ -2,14 +2,12 @@
 
 package main
 
-import "fmt"
-
-func main() {
-	// input := []int{1, 1, 1, 2, 2, 2, 2, 0, 0, 0, 0, 2, 7}
-	input1 := "xyzasc"
-	input2 := "a bc888"
-	fmt.Println("The alternately vertion of", input2, "and", input1, "is:", mergeAlternately(input1, input2))
-}
+// func main() {
+// 	// input := []int{1, 1, 1, 2, 2, 2, 2, 0, 0, 0, 0, 2, 7}
+// 	input1 := "xyzasc"
+// 	input2 := "a bc888"
+// 	fmt.Println("The alternately vertion of", input2, "and", input1, "is:", mergeAlternately(input1, input2))
+// }
 
 func mergeAlternately(word1 string, word2 string) string {
 	result := ""
