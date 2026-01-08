@@ -2,13 +2,11 @@
 
 package main
 
-import "fmt"
-
-func main() {
-	candies := []int{4, 2, 1, 1, 2}
-	extraCandies := 1
-	fmt.Println("Kids with the greatest number of candies:", kidsWithCandies(candies, extraCandies))
-}
+// func main() {
+// 	candies := []int{4, 2, 1, 1, 2}
+// 	extraCandies := 1
+// 	fmt.Println("Kids with the greatest number of candies:", kidsWithCandies(candies, extraCandies))
+// }
 
 func kidsWithCandies(candies []int, extraCandies int) []bool {
 	result := make([]bool, len(candies))
