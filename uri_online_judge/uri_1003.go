@@ -4,9 +4,9 @@ package main
 
 import "fmt"
 
-func main() {
-    var num1, num2 int64
-    fmt.Scanf("%d", &num1)
-    fmt.Scanf("%d", &num2)
-    fmt.Printf("SOMA = %d\n", num1 + num2)
+func problem1003() {
+	var num1, num2 int64
+	fmt.Scanf("%d", &num1)
+	fmt.Scanf("%d", &num2)
+	fmt.Printf("SOMA = %d\n", num1+num2)
 }

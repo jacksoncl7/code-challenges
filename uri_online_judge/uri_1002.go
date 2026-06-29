@@ -2,14 +2,16 @@
 
 package main
 
-import ( "fmt" )
+import (
+	"fmt"
+)
 
-func main() {
+func problem1002() {
 	PI := 3.14159
 	var area float64
 	var raio float64
 
 	fmt.Scanf("%f", &raio)
-	area = raio*raio*PI
+	area = raio * raio * PI
 	fmt.Printf("A=%.4f\n", area)
 }

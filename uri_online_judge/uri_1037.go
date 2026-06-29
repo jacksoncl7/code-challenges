@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-func main() {
+func problem1037() {
 	var indata float64
 	var outdata string
 	fmt.Scanf("%f", &indata)

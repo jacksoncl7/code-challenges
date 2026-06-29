@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func problem1041() {
 	var x, y float64
 	fmt.Scanf("%f", &x)
 	fmt.Scanf("%f", &y)

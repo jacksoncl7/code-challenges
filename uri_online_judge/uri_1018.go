@@ -16,22 +16,22 @@ func counter(note int, value int) int {
 	return count
 }
 
-func main() {
+func problem1018() {
 	value := 0
 	fmt.Scan(&value)
 	fmt.Println(value)
 	hundred := counter(100, value)
-	partial_value := value - 100 * hundred
+	partial_value := value - 100*hundred
 	fifty := counter(50, partial_value)
-	partial_value =	partial_value - 50 * fifty
+	partial_value = partial_value - 50*fifty
 	twenty := counter(20, partial_value)
-	partial_value =	partial_value - 20 * twenty
+	partial_value = partial_value - 20*twenty
 	ten := counter(10, partial_value)
-	partial_value =	partial_value - 10 * ten
+	partial_value = partial_value - 10*ten
 	five := counter(5, partial_value)
-	partial_value =	partial_value - 5 * five
+	partial_value = partial_value - 5*five
 	two := counter(2, partial_value)
-	partial_value =	partial_value - 2 * two
+	partial_value = partial_value - 2*two
 	one := counter(1, partial_value)
 
 	print_notes(hundred, "100,00")
